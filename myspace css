@@ -1,0 +1,346 @@
+div.extended.box>a>h3{
+    font-size: 0px;
+    }
+.blog {
+   margin-bottom: 20px;
+   background: rgba(60, 120, 120, 0.5);
+   border: #F8EFEA solid 3px;
+   margin-left: 0%;
+   margin-right: 40%; 
+}
+div.extended.box>a>h3:after{
+    display: block;
+    font-size: 22px;
+    font-weight: normal;   
+    content: "Grillbert is not in your extended network";
+    }
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/803310863603204100/818283236207624234/Screen_Shot_2021-03-07_at_6.45.58_PM.png);
+    background-size: 20%;
+    background-attachment: fixed;
+    animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+        }
+h4{
+    color: #F8EFEA;
+    font-size: 20px;
+    	}
+.extended.box {
+   background: rgba(60, 120, 120, 0.5);
+    text-align: center;
+    color: #F8EFEA;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+        }
+.tableRight{
+    width: 75%;
+    background: transparent;
+    padding: 5px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    text-align: center;
+        }
+.rightHead {
+    background: transparent;
+    color: #F8EFEA;
+    text-align: center;
+    font-weight: normal;
+        }
+.short{
+    margin-right: 45%;
+    margin-left: -45%;
+   background: rgba(60, 120, 120, 0.5);
+    color: #F8EFEA;
+    font-size:15px;
+    font-weight: normal;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+    text-align: center;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+   	}
+.box.fwiends{
+    Display: none;
+             }
+.box.blurbs{
+    margin-right: 31%;
+    margin-left: -31%;
+   background: rgba(60, 120, 120, 0.5);
+    color: #F8EFEA;
+    font-size:15px;
+    font-weight: normal;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+    text-align: center;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+}
+.box.comments{
+    margin-top: -85%;
+    margin-left: 71%;
+    margin-right: -29%; 
+   background: rgba(60, 120, 120, 0.5);
+    color: #F8EFEA;
+    font-size:15px;
+    font-weight: normal;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+    overflow: scroll;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: white; 
+}
+.player.box {
+    margin-top: -1%;
+    margin-right: 45%;
+    margin-left: -45%;
+    width: 98%;
+    display: inline-table;
+    margin-bottom: 20px;
+    padding-right: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px 
+    #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;    
+   background: rgba(60, 120, 120, 0.5);
+    border-right: 1px solid #808080;
+    border-left: 1px solid #d4d0c8;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+        }
+.songName::before {
+    content: "";
+    text-shadow: -2px -2px rgb(0, 133, 116);
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 99%;
+    height: 164px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-image: url(http://www.dreamideamachine.com/en/wp-content/uploads/sites/3/2017/03/A9Rqrd2qb_bcng9p_51c.jpg);
+    background-size: cover;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+        }
+audio::-webkit-media-controls-mute-button,video::-webkit-media-controls-mute-button {
+    background-image: url(https://web.archive.org/web/20200926092940im_/https://i.imgur.com/dRi7c7l.png);
+    background-size: 20px;
+        }
+audio::-webkit-media-controls-enclosure,video::-webkit-media-controls-enclosure {
+    border-radius: 0%;
+    box-shadow: 1px 0 #404040, 0 1px #404040, 1px 1px #404040, inset 1px 1px #fff;
+    background-color: #d4d0c8;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #d4d0c8;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+    color: #000;
+        }
+audio {
+    margin-bottom: 5px;
+        }
+.boxHead{
+background: transparent; 
+color: #F8EFEA; 
+        }
+div.topLeft>div{
+    padding-right: -3px;
+    padding-left: -2px;
+    padding-top: -2px;
+    padding-bottom: -3px;
+    margin-right: 45%;
+    margin-left: -45%;
+   background: rgba(60, 120, 120, 0.5);
+    color: #F8EFEA;
+    font-size:15px;
+    font-weight: normal;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+   	}
+#commentInput {
+    background-color: transparent;
+    border: transparent;
+    color: #F8EFEA;
+    text-shadow: -3px -2px rgb(0, 133, 116);
+        }
+#commentInput:hover {
+    background-color: rgba(0, 30, 28, 0.2);
+    color: #F8EFEA;
+    border-radius: 8px;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+}
+#block{
+    display: none;
+  	}
+#report{
+    display: none;
+  	}
+#sMsg, #add, #remove {
+    color: #F8EFEA;
+        }
+div#hSub{
+    color: #F8EFEA;
+    font-size:15px;
+    font-weight: normal;
+    text-align: center;
+    	}
+.blurbs>.blogs>div:first-child {
+    margin-top: -3px;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-top: none;
+    position: relative;
+    width: 100%;
+    top: -16px;
+    display: none;
+        }
+.blurbs>.blogs>div:not(:first-child):before {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 64px;
+    background: url(https://giffiles.alphacoders.com/171/171318.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+        }
+.blurbs>.blogs>div:not(:first-child):hover:before{
+    content: "";
+    display: block;
+    width: 96px;
+    height: 64px;
+    background: url(https://media1.tenor.com/images/8d49ece185789d6adfb92a5ab45a4800/tenor.gif?itemid=18673806);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+        }
+.blurbs>.blogs>div:not(:first-child){
+    width: 96px;
+    text-align: center;
+    margin: 0 20px;
+        }
+.blogs {
+    display: flex;
+    flex-flow: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #F8EFEA;
+        }
+div#header{
+   background: rgba(60, 120, 120, 0.6);
+    color: #F8EFEA;
+   content: "grillby supremacy";
+        }
+div#hSub{
+   background: rgba(60, 120, 120, 0.5);
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+        }  
+img.avatar {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.tableLeft img{
+	background: url(https://em.wattpad.com/2e7a5aefdd061847c87a1af7375f4c5cccdca1de/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6b434b5f4b4a61726854463939673d3d2d3838393031393735352e313631306362373031656332313231323235373132323433353730312e676966?s=fit&w=720&h=720);
+	max-width: calc(88%);
+	padding: 5px;
+	}
+#container{
+	background-color: transparent;
+	}
+.tableLeft {
+   background: transparent;
+        }
+div.box.comments div.box.blog, div.box.comments div.box.comments{
+    background: none;
+    display: flex;
+    flex-flow: row;
+    }
+a:link, a:visited{
+    color: #F8EFEA; 
+    }
+span#hUp::before {
+    content: "New Catboys";
+    animation: blinkingTextteal 0.3s infinite !important;
+    color: #F8EFEA;
+    font-size: 13px;
+    }
+@keyframes blinkingTextteal{
+0%{color: #F8EFEA;}
+50%{color: #008080;}
+}
+#add{
+    font-size: 0px;
+    }
+#add:hover {
+    background-color: rgba(0, 30, 28, 0.4);
+    color: #F8EFEA;
+    border-radius: 8px;
+}
+#add:after{
+    content:"be my soulmate"; 
+    font-size: small;
+    color: #F8EFEA; padding-left: 10px;
+    }
+#sMsg{
+    font-size: 0px;
+    }
+#sMsg:hover {
+    background-color: rgba(0, 30, 28, 0.4);
+    color: #F8EFEA;
+    border-radius: 8px;
+}
+#sMsg:after{
+    content:"hit me up :3";
+    font-size: small;
+    color: #F8EFEA; padding-left: 10px;
+    }
+body, div#header{
+    font-family: Courier New;
+    font-weight: normal;
+color: #F8EFEA;
+    }
+div#hSub{
+    font-family: Courier New;
+    font-weight: normal;
+    }
+.url {
+    display:none;
+}
+.logo{
+display: none;
+}
+.logo b:after {
+    content: "Griffith Supremacy";
+    color: #F8EFEA;
+}
+div#footer {
+  background: url (https://cdn.discordapp.com/attachments/727121988887248971/835694873159139338/91_7_118_24_sebastia_o_salgado_agentur_focus.jpg);
+  opacity: 0.5;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;
+}
+#userWall{
+  width: 100%;
+  height: 23em;
+  padding: 0.0em;
+  overflow: scroll;
+box-shadow: -1px -1px #FFF, -2px -2px #54669c, 1px 1px #89a4f5, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px #89a4f5, -1px 1px #89a4f5, -2px 1px #89a4f5, 1px -2px #89a4f5, 1px -2px #89a4f5, 2px -2px #000, -2px 2px #000;}
